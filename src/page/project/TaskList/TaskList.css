@@ -1,0 +1,33 @@
+.create-new-task-btn {
+    float: right;
+    margin: 0px 0px 10px 0px;
+}
+.task-status-select{
+	width: 120px;
+}
+
+.create-task-modal{
+	width: 70% !important;
+	height: 100%;
+}
+
+.status-tag{
+	font-size: 14px !important;
+	margin: 2px;
+	justify-content: space-between;
+}
+
+.ellipsis-cell{
+	  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 500px) 
+{
+	.create-task-modal{
+		width: 100% !important;
+	}
+}
+
+
