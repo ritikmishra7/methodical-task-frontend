@@ -1,0 +1,24 @@
+.sidebar-layout {
+    display: flex;
+	height: 100%;
+    margin-top: 2px;
+}
+
+.layout-outlet-wrapper {
+    overflow: auto;
+    width: 100%;
+}
+
+.layout-outlet-div {
+    width: 100%;
+    background-color: white;
+    z-index: -1;
+    padding-top: 15px;
+	padding: 0px 1%;
+}
+
+.spinner{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}

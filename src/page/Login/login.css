@@ -1,0 +1,189 @@
+.container{
+	width: 100%; 
+    height: 100vh; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+	background-color: var(--lightgreen);
+}
+
+.nav-container{
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	/* margin-bottom: 30px; */
+}
+
+.logo-text {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.signup-button{
+	border: none;
+	background-color: inherit;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.signup-button:hover{
+	transform: scale(1.05);
+}
+
+.request-button{
+	border: none;
+	background-color: var(--darkgreen);
+	color: white;
+	padding : 10px;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 17px;
+}
+
+.request-button:hover{
+	transform: scale(1.05);
+}
+
+.email{
+	font-weight: 600;
+}
+
+.login-container{
+	background-color: white;
+	width: 500px;
+	height: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.form-title{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.supporting-text{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.custom-input{
+	height: 50px;
+	margin: 10px 0px;
+	border-radius: 10px !important;
+
+}
+
+.form{
+	margin: 0px 50px;
+}
+
+.custom-input{
+	box-shadow: none !important;
+}
+
+.forgot-password {
+	color: #1a73e8;
+	text-decoration: none;
+}
+
+.signin-button{
+	background-color: var(--darkgreen);
+	color: white;
+	width: 80%;
+	padding : 10px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: 10px 10%;
+}
+
+.signin-button:hover{
+	transform: scale(1.02);
+}
+
+.extra-text{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.icon-button{
+	color: var(--darkgreen);
+	border-radius: 10px !important;
+	width: 100%;
+}
+
+.icon-button:hover{
+	box-shadow: none !important;
+	transform: scale(1.05);
+}
+
+.cr-text{
+	padding: 30px;
+	text-align: center;
+}
+
+.button-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stepper{
+	width: 80%;
+	margin: auto;
+}
+
+.ant-steps-item-title:after{
+	background-color: var(--darkgreen) !important;
+}
+
+@media only screen and (max-width: 450px) 
+{
+	.login-container {
+		width: 100%;
+		height: auto;
+		padding: 0px;
+	}
+
+	.nav-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.form{
+		margin: 0px 30px;
+	}
+
+	.button-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.icon-button{
+		width: 70%;
+		margin: 5px;
+	}
+
+	.container{
+		background-color: white;
+	}
+}
+

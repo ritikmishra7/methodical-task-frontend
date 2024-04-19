@@ -1,0 +1,19 @@
+.taskitem-wrapper {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.taskitem-wrapper:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.taskitem-row {
+    padding: 0px 10px;
+}
+
+.progress-select {
+    width: 120px;
+}

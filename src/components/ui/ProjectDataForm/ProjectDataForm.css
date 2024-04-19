@@ -1,0 +1,25 @@
+.project-data-form-card {
+    max-width: 800;
+    margin: auto
+}
+
+.project-data-form-submit-button {
+    text-align: center;
+}
+
+.ant-upload-list-item .ant-upload-list-item-thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+.add-project-submit-btn {
+    background-color: var(--darkgreen);
+    color: white;
+}
+
+.add-project-submit-btn:hover {
+    background-color: var(--lightgreen);
+    color: white;
+}

@@ -1,0 +1,57 @@
+.card {
+	width: 100%;
+	margin: auto;
+	padding: 25px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.display-name {
+	font-weight: 600;
+	color: rgb(2, 38, 45);
+	text-align: center;
+}
+
+.ant-tabs-tab-btn {
+	color: var(--darkgreen) !important;
+}
+
+.ant-tabs-ink-bar {
+	background-color: var(--darkgreen) !important;
+}
+
+.info-container {
+	text-align: center;
+}
+
+.name {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--darkgreen);
+}
+
+.image-container {
+	text-align: center;
+	object-fit: contain;
+	max-width: 350px;
+	width: 98%;
+	margin: auto;
+	z-index: -1;
+}
+
+
+.pp-container {
+	height: 200px;
+	width: 200px;
+	z-index: 1;
+	position: absolute;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.upload-button {
+	margin: 20px auto;
+}
